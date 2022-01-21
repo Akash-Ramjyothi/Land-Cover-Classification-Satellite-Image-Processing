@@ -22,6 +22,26 @@ Developed a and Cover Classification system using Satellite Image Processing wit
 - http://madm.dfki.de/downloads
 - https://github.com/phelber/eurosat
 
+## 🔭 Tabular Comparisons:
+|  Settings  | Baseline | Baseline + A-Fan |
+|:----------:|:--------:|:----------------:|
+|  ResNet-50 |   75.21  |       76.33      |
+| ResNet-101 |   77.10  |       78.14      |
+| ResNet-152 |   78.31  |       78.69      |
+
+Standard Testing accuracy (SA%) of ResNet-50/101/152 on ImageNet dataset
+<br>
+<br>
+|   Method   | top-1 err. | top-5 err. |
+|:----------:|:----------:|:----------:|
+|  VGG (v5)  |    24.4    |     7.1    |
+|  ResNet-50 |    20.74   |    5.25    |
+| ResNet-101 |    19.87   |    4.60    |
+| ResNet-152 |    19.38   |    4.49    |
+
+Fully Conv with Multiple Scale Results of ResNet-50/101/152 and VGG net
+
+
 ## 💥 How to Contribute?
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
