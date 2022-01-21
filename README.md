@@ -29,7 +29,7 @@ Developed a and Cover Classification system using Satellite Image Processing wit
 | ResNet-101 |   77.10  |       78.14      |
 | ResNet-152 |   78.31  |       78.69      |
 
-Standard Testing accuracy (SA%) of ResNet-50/101/152 on ImageNet dataset
+Standard Testing accuracy (SA%) of ResNet-50/101/152 on EuroSAT dataset
 <br>
 <br>
 |   Method   | top-1 err. | top-5 err. |
@@ -48,10 +48,10 @@ Fully Conv with Multiple Scale Results of ResNet-50/101/152 and VGG net
 |   VGGNet   | 2014 |  Fixed-size Kernels  |  92.30%  |    138M    | 19.6B |
 | ResNet-152 | 2015 | Shortcut Connections |  95.52%  |    60.3M   |  11B  |
 
-Accuracy obtained from ResNet-152, VGG Net and AlexNet
+Accuracy obtained from ResNet-152, VGG Net and AlexNet on EuroSAT dataset
 <br>
 <br>
-| Pascal VOC2007 | ResNet-50 |       | ResNet-101 |       |
+| EuroSAT        | ResNet-50 |       | ResNet-101 |       |
 |:--------------:|:---------:|:-----:|:----------:|:-----:|
 |                |  Baseline | A-FAN |  Baseline  | A-FAN |
 |     AP (%)     |   33.20   | 33.85 |    36.21   | 37.05 |
@@ -59,7 +59,7 @@ Accuracy obtained from ResNet-152, VGG Net and AlexNet
 |    AP75 (%)    |   35.83   | 36.54 |    39.40   | 40.22 |
 |  Robust AP (%) |    0.00   |  0.50 |    0.20    |  0.66 |
 
-Accuracy of detection on Pascal VOC2007 datasets with faster RCNN
+Accuracy of detection on EuroSAT datasets with faster RCNN
 <br>
 <br>
 |    Model   | top-1 err. | top-5 err. |
@@ -69,7 +69,30 @@ Accuracy of detection on Pascal VOC2007 datasets with faster RCNN
 | ResNet-101 |    21.75   |    6.05    |
 | ResNet-152 |    21.43   |    5.71    |
 
-Error rates on ImageNet dataset between VGG-16 and ResNet-50/101/152
+Error rates on EuroSAT dataset between VGG-16 and ResNet-50/101/152
+
+## 📈 Graphical Observations/ Representation:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54114888/150593415-794c0187-006d-4328-a44e-48b03190b0e3.png" width="" height="300">
+<p align="center">Comparison of Training and Testing Accuracy(%) of different models on EuroSAT dataset</p>  
+</p>
+
+<br>
+<br>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54114888/150595312-1f371d4d-4b07-40af-98b0-515fb2235d32.png" width="" height="300">
+<p align="center">Model accuracy and model loss of ResNet 152 on EuroSAT dataset</p>  
+</p>
+
+<br>
+<br>
+
+<p align="center">
+<img src="https://www.mdpi.com/applsci/applsci-11-02723/article_deploy/html/images/applsci-11-02723-g021.png" width="" height="350">
+<p align="center">Training Accuracy results of Classification models</p>  
+</p>
 
 ## 💥 How to Contribute?
 
