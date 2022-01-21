@@ -40,7 +40,19 @@ Standard Testing accuracy (SA%) of ResNet-50/101/152 on ImageNet dataset
 | ResNet-152 |    19.38   |    4.49    |
 
 Fully Conv with Multiple Scale Results of ResNet-50/101/152 and VGG net
+<br>
+<br>
+| Pascal VOC2007 | ResNet-50 |       | ResNet-101 |       |
+|:--------------:|:---------:|:-----:|:----------:|:-----:|
+|                |  Baseline | A-FAN |  Baseline  | A-FAN |
+|     AP (%)     |   33.20   | 33.85 |    36.21   | 37.05 |
+|    AP50 (%)    |   53.92   | 54.73 |    56.90   | 57.31 |
+|    AP75 (%)    |   35.83   | 36.54 |    39.40   | 40.22 |
+|  Robust AP (%) |    0.00   |  0.50 |    0.20    |  0.66 |
 
+Accuracy of detection on Pascal VOC2007 datasets with faster RCNN
+<br>
+<br>
 
 ## 💥 How to Contribute?
 
