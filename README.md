@@ -42,6 +42,15 @@ Standard Testing accuracy (SA%) of ResNet-50/101/152 on ImageNet dataset
 Fully Conv with Multiple Scale Results of ResNet-50/101/152 and VGG net
 <br>
 <br>
+|   Network  | Year |    Salient Feature   | Accuracy | Parameters |  FLOP |
+|:----------:|:----:|:--------------------:|:--------:|:----------:|:-----:|
+|   AlexNet  | 2012 |        Deeper        |  84.70%  |     62M    |  1.5B |
+|   VGGNet   | 2014 |  Fixed-size Kernels  |  92.30%  |    138M    | 19.6B |
+| ResNet-152 | 2015 | Shortcut Connections |  95.52%  |    60.3M   |  11B  |
+
+Accuracy obtained from ResNet-152, VGG Net and AlexNet
+<br>
+<br>
 | Pascal VOC2007 | ResNet-50 |       | ResNet-101 |       |
 |:--------------:|:---------:|:-----:|:----------:|:-----:|
 |                |  Baseline | A-FAN |  Baseline  | A-FAN |
