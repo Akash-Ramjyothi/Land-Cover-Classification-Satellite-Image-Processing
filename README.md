@@ -53,6 +53,14 @@ Fully Conv with Multiple Scale Results of ResNet-50/101/152 and VGG net
 Accuracy of detection on Pascal VOC2007 datasets with faster RCNN
 <br>
 <br>
+|    Model   | top-1 err. | top-5 err. |
+|:----------:|:----------:|:----------:|
+|   VGG-16   |    28.07   |    9.33    |
+|  ResNet-50 |    22.85   |    6.71    |
+| ResNet-101 |    21.75   |    6.05    |
+| ResNet-152 |    21.43   |    5.71    |
+
+Error rates on ImageNet dataset between VGG-16 and ResNet-50/101/152
 
 ## 💥 How to Contribute?
 
