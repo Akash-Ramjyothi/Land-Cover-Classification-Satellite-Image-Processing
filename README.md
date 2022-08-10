@@ -7,11 +7,6 @@
 ## 📜 Description:
 Developed a and Cover Classification system using Satellite Image Processing with the help of Remote Sensing images. The system can classify between Forest land, Agricultural of Paddy fields nd Urban areas from a given Dataset. All the step by step procedure has been done and executed in the Jupyter notebook. The system can also clasify the Land cover into various other categories as well as shown in the Sample predicted results.
 
-## 📽 Sample predicted results: (Also shown process in Jupyter notebook)
-<p align="center">
-<img src="https://user-images.githubusercontent.com/54114888/148724730-fef911e3-daa5-4f93-aa7a-244a468112e1.png" >
-</p>
-
 ## 🏗 Benchmark datasets used:
 - https://data.tpdc.ac.cn/en/data/1b2ebe66-8389-4c9f-9756-1b29d83f851f/
 - https://x-ytong.github.io/project/GID.html
